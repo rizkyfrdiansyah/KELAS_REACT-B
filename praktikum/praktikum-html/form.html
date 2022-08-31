@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Buat account Baru!</h1>
+    <h2>Sign Up</h2>
+    <!-- Action merupakan tag untuk mengarah ke page lain -->
+    <form action="welcome.html">
+      <div class="form-item">
+        <label for="">First Name</label>
+        <input type="text" placeholder="Input first name" />
+      </div>
+      <div class="form-item">
+        <label for="">Last Name</label>
+        <input type="text" placeholder="Input Last name" />
+      </div>
+      <div class="form-item">
+        <label for="">Gender</label>
+        <input type="radio" name="jk" />Male <input type="radio" name="jk" />Female <input type="radio" name="jk" />Other
+      </div>
+      <div class="form-item">
+        <label for="">Nationality</label>
+        <select>
+          <option value="indonesian">Indonesian</option>
+          <option value="british">British</option>
+          <option value="japanese">Japanese</option>
+        </select>
+      </div>
+      <div class="form-item">
+        <label for="">Language SPoken</label>
+        <input type="checkbox" />Indonesia <input type="checkbox" />English <input type="checkbox" />Japanese
+      </div>
+      <div class="form-item">
+        <label for="">Bio</label>
+        <textarea cols="30" rows="10"></textarea>
+      </div>
+      <div class="form-item">
+        <input type="submit" value="Sign Up" />
+      </div>
+    </form>
+  </body>
+</html>

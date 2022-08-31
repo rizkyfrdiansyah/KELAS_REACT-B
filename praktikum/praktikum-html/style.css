@@ -1,0 +1,43 @@
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.form-item {
+  margin-bottom: 16px;
+}
+
+.form-item label {
+  display: block;
+}
+
+input[type="text"] {
+  font-family: inherit;
+  padding: 8px;
+  width: 300px;
+}
+input[type="radio"] {
+  margin-right: 8px;
+}
+select {
+  padding: 4px 8px;
+}
+select option {
+  padding: 4px 8px;
+}
+textarea {
+  width: 300px;
+  height: 100px;
+}
+input[type="submit"] {
+  padding: 8px 16px;
+  border: 0;
+  background-color: #2980b9;
+  color: #ffffff;
+  border-radius: 12px;
+}
