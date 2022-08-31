@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Cara ambil fonts dalam folder local */
+/* @import url("../assets/fonts/tests.ttf"); */
+
+/* variable bisa digunakan dalam CSS3 */
+:root {
+  /* variable */
+  --color-primary: #2980b9;
+  --main-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+.title-banner {
+  color: #ffffff;
+}
+
+.banner {
+  width: 75%;
+  background-color: #2980b9;
+  text-align: center;
+  padding: var(--main-size);
+  margin: auto;
+}
+
+.menu {
+  width: 75%;
+  margin: auto;
+  padding: var(--main-size);
+  background-color: mediumseagreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.menu li {
+  list-style: none;
+  float: left;
+}
+
+.menu li a {
+  padding: 8px 16px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.menu li a:hover {
+  background-color: darkgreen;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.info {
+  width: 75%;
+  padding: 16px;
+  /* background-color: #2980b9; */
+  margin: auto;
+  margin-top: 12px;
+  text-align: center;
+}
+/* > ini adalah Direct Child */
+.info > h3,
+.info > p {
+  margin-bottom: 24px;
+}
+.info-items {
+  width: 100%;
+  margin: auto;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-box {
+  width: 27.5%;
+  /* background-color: #2980b9; */
+  /* border: 1px solid #ccc; */
+  border-radius: 16px;
+  border: 1px solid #ccc;
+}
+
+.info-box:hover {
+  border: 0;
+  box-shadow: 0.5px 0.5px 10px;
+  transition: 0.3s;
+}
+
+.info-box-img {
+  width: 100%;
+}
+.info-box-img img {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.info-box-details {
+  padding: 16px;
+}
+
+.btn-blue {
+  background-color: var(--color-primary);
+  border: 0;
+  padding: 6px 12px;
+  border-radius: 12px;
+  color: #ffffff;
+  margin-top: 12px;
+}
