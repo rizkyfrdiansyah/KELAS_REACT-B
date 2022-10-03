@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../styles/sass/index.scss"
+  ],
+  "names": [],
+  "mappings": "AAEA;EACI;;AAEA;EACI;;AAEJ;EACI;;AAGJ;EACI;;AAEA;EACI",
+  "file": "App.css"
+}

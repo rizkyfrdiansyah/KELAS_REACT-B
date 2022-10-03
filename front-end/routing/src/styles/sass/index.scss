@@ -1,0 +1,20 @@
+// SCSS = Sassy CSS
+
+.divBaru {
+  background-color: blue;
+
+  h1 {
+    color: green;
+  }
+  p {
+    color: red;
+  }
+
+  .divLebihBaru {
+    font: sans-serif;
+
+    button {
+      background-color: yellow;
+    }
+  }
+}

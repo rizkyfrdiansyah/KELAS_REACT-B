@@ -1,0 +1,42 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Vincent",
+      "age": 17,
+      "avatar": "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/04/20/2360388704.jpg",
+      "major": "teknik_informatika"
+    },
+    {
+      "id": 2,
+      "name": "Admin",
+      "age": 17,
+      "avatar": "https://via.placeholder.com/100",
+      "major": "sistem_informasi"
+    },
+    {
+      "id": 3,
+      "name": "Ncent",
+      "age": 15,
+      "avatar": "https://via.placeholder.com/100",
+      "major": "Sistem Komputer"
+    }
+  ],
+  "lecturers": [
+    {
+      "id": 1,
+      "name": "James",
+      "subject": "Calculus"
+    },
+    {
+      "id": 2,
+      "name": "Jason",
+      "subject": "Algebra"
+    },
+    {
+      "name": "Jane",
+      "subject": "chemistry",
+      "id": 3
+    }
+  ]
+}

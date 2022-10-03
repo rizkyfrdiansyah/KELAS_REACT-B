@@ -1,0 +1,17 @@
+.divBaru {
+  background-color: blue;
+}
+.divBaru h1 {
+  color: green;
+}
+.divBaru p {
+  color: red;
+}
+.divBaru .divLebihBaru {
+  font: sans-serif;
+}
+.divBaru .divLebihBaru button {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=App.css.map */

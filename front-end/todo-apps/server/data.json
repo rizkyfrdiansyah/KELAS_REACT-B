@@ -1,0 +1,44 @@
+{
+  "todos": [
+    {
+      "title": "Learning react hooks and router",
+      "completed": true,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Latihan react hooks",
+      "completed": false
+    },
+    {
+      "title": "lunch bersama dia",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "title": "tes",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "title": "makan bersama",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "title": "ashiapp",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "title": "pakai folder axios",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "title": "oke",
+      "completed": false,
+      "id": 8
+    }
+  ]
+}
