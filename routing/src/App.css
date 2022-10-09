@@ -1,0 +1,53 @@
+* {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.Sidebar {
+  width: 25%;
+  height: 100vh;
+  position: fixed;
+}
+
+.active {
+  background-color: pink;
+  box-shadow: 3px 0px 8px;
+}
+
+.Content {
+  width: 100%;
+}
+
+.btn {
+  border: 1px solid brown;
+  padding: 10px;
+  margin-top: 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  color: aliceblue;
+  background-color: rgb(182, 45, 45);
+}
+
+.btn:hover {
+  background-color: rgb(230, 14, 14);
+}
+
+ul li {
+  margin: 25px 0px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+a:hover {
+  font-weight: bold;
+  color: rgb(212, 31, 31);
+  text-decoration: underline;
+}

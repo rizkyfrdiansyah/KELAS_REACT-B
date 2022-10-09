@@ -1,0 +1,13 @@
+.list {
+  padding-top: 1rem;
+}
+
+.font {
+  font-size: 20px;
+}
+
+.fontChecked {
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(94, 94, 94);
+}

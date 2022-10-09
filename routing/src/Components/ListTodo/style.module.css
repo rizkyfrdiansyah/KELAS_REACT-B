@@ -1,0 +1,22 @@
+.ListWrapper {
+  width: 40%;
+  border-bottom: 1px solid black;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 10px 10px;
+}
+
+.ListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ListWrapper button {
+  border-radius: 50%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
