@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* Base Styling */
+* {
+  font-family: "Quicksand";
+  color: #333;
+}
+body {
+  margin: 0;
+  background-image: url(../public/assets/sample-pattern.png);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App {
+  text-align: center;
+}
+.home .title {
+  letter-spacing: 2px;
+  color: #9adcff;
+  font-size: 4rem;
+}
+/* container-todo */
+.container-todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  width: 600px;
+  height: 45px;
+  border: 2px solid #f2f2f2;
+  margin: auto;
+  background-color: white;
+  box-shadow: 10px 11px 6px -5px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 10px 11px 6px -5px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 10px 11px 6px -5px rgba(0, 0, 0, 0.11);
+}
+.container-todo input {
+  border: none;
+  height: 35px;
+  width: 500px;
+  margin-left: 10px;
+}
+.container-todo input:focus {
+  outline: none;
+}
+.container-todo input::-webkit-input-placeholder {
+  color: #000;
+  font-weight: bold;
+}
+.container-todo button {
+  background-color: white;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-weight: bold;
+  height: 30px;
+  width: 80px;
+}
+.container-todo button:hover {
+  color: #9adcff;
+}
+
+/* Todo List */
+.todo-list {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  transition: 0.4s;
+  /* background-color: #fff; */
+  border-radius: 10px;
+}
+.todo-list:hover {
+  padding-left: 20px;
+}
+.todo-list input {
+  flex-grow: 0;
+  margin: 10px;
+}
+.todo-list p {
+  flex-grow: 1;
+  text-align: start;
+}
+.todo-list p:hover {
+  color: #9adcff;
+}
+.todo-list button {
+  font-weight: bold;
+  width: 80px;
+  border: none;
+  flex-grow: 0;
+  background-color: transparent;
+}
+.btn-delete-list:hover {
+  color: #9adcff;
+}
