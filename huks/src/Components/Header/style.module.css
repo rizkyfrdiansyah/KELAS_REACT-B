@@ -1,0 +1,10 @@
+.header {
+  font-size: 72px;
+  background-image: linear-gradient(#f07a1f, #266ee3);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}

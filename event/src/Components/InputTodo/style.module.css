@@ -1,0 +1,31 @@
+.form_input {
+  margin-bottom: 15px;
+}
+
+.input_text_todo {
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
+  padding: 0.75rem;
+  border-radius: 15px;
+  border: none;
+  width: 80%;
+}
+
+.input_text_todo:focus {
+  outline: none;
+}
+
+.btn_submit_todo {
+  padding: 1em;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-left: 0.25rem;
+  background-color: rgba(0, 123, 214);
+  color: white;
+}
+
+.btn_submit_todo:hover {
+  cursor: pointer;
+  background-color: rgb(0, 107, 189);
+  color: rgb(214, 213, 213);
+}
