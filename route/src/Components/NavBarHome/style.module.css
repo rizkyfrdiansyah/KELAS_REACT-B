@@ -1,0 +1,57 @@
+.btn_hamburger {
+  display: inline-block;
+  padding: 0.5em;
+  margin: 3rem;
+  margin-bottom: 0;
+  cursor: pointer;
+  font-size: 24px;
+  color: #3a8b8c;
+  border-radius: 10px;
+  border: 2px solid #3a8b8c;
+  transition: 0.15s;
+}
+
+.btn_hamburger:hover {
+  background-color: #3a8b8c;
+  color: white;
+}
+
+.nav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #3a8b8c;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 120px;
+  color: white;
+}
+
+.nav_link {
+  padding: 0.5rem 2rem;
+  font-size: 18px;
+  display: block;
+  font-weight: 700;
+  opacity: 0.5;
+  color: white;
+}
+
+.nav_link:hover {
+  opacity: 1;
+}
+
+.nav .btn_close {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 48px;
+  cursor: pointer;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.nav a {
+  text-decoration: none;
+}
