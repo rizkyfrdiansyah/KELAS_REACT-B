@@ -8,7 +8,7 @@ function ToDoInput(props) {
   const [data, setData] = useState({
     id: "",
     title: "",
-    completed: true,
+    completed: false,
   });
 
   const onChange = (e) => {
@@ -29,7 +29,7 @@ function ToDoInput(props) {
       dispatch(tambahTodo(newData));
       setData({
         title: "",
-        completed: true,
+        completed: "false",
       });
     } else {
       alert("Data masih kosong");

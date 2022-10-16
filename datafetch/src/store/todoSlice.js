@@ -4,7 +4,7 @@ const initialValue = [
   {
     id: 1,
     title: "Mengerjakan Exercise",
-    completed: true,
+    completed: false,
   },
   {
     id: 2,
@@ -13,12 +13,12 @@ const initialValue = [
   },
   {
     id: 3,
-    title: "Membuat Resume",
-    completed: true,
+    title: "Mengerjakan Summary",
+    completed: false,
   },
   {
     id: 4,
-    title: "Mengerjakan Pilgan",
+    title: "Membaca Materi",
     completed: false,
   },
 ];
