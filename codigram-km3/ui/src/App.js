@@ -8,7 +8,7 @@ import { Navbar, MainContent } from "./components";
 function App() {
   return (
     <div className="container-fluid">
-      <div className="container ">
+      <div className="container">
         <Navbar />
         <MainContent />
       </div>
