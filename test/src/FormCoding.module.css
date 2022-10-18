@@ -2,11 +2,15 @@
   margin: 50px 300px;
 }
 
-input[type=radio] {
+input[type="radio"] {
   margin: 5px 3px 8px 5px;
 }
 
-input[type=text], input[type=number], input[type=file], input[type=email], select {
+input[type="text"],
+input[type="number"],
+input[type="file"],
+input[type="email"],
+select {
   width: 100%;
   display: block;
   /* width: 500px; */
@@ -30,7 +34,8 @@ textarea {
   font-size: 16px;
 }
 
-button, input[type=submit] {
+button,
+input[type="submit"] {
   width: 120px;
   height: 30px;
   font-size: 14px;
@@ -39,18 +44,21 @@ button, input[type=submit] {
   border-style: solid;
 }
 
-button:hover, input[type=submit]:hover {
+button:hover,
+input[type="submit"]:hover {
   cursor: pointer;
 }
 
-.buttonSubmit, input[type=submit] {
+.buttonSubmit,
+input[type="submit"] {
   margin-right: 10px;
   background: green;
   border-color: green;
   color: white;
 }
 
-.buttonSubmit:hover, input[type=submit]:hover {
+.buttonSubmit:hover,
+input[type="submit"]:hover {
   background: transparent;
   color: green;
 }
