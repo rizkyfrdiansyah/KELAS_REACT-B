@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { ADD_BOOK } from "../redux/reducers/bookSlice";
+import { addBookAsync } from "../redux/actions/bookActions";
 
 const InputGroup = () => {
   const { books } = useSelector((state) => state.books);
@@ -16,7 +16,7 @@ const InputGroup = () => {
       title,
       price,
     };
-    dispatch(ADD_BOOK(temp));
+    dispatch(addBookAsync(temp));
   };
 
   return (
@@ -28,7 +28,7 @@ const InputGroup = () => {
             Input Book
           </button>
         </div>
-        <div>{JSON.stringify(books)}</div>
+        {/* <div>{JSON.stringify(books)}</div> */}
       </div>
     </>
   );
