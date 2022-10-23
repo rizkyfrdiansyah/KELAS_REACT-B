@@ -1,0 +1,40 @@
+.add_team_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 70px 1rem 100px 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.add_team_container h2 {
+  margin-bottom: 2rem;
+}
+
+.spinner {
+  margin: 0 auto;
+}
+
+.back {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 210px 0 0 2.5rem;
+}
+
+.back:hover {
+  color: #e4f065;
+}
+
+@media screen and (min-width: 768px) {
+  .add_team_container {
+    padding-top: 50px;
+  }
+
+  .back {
+    padding-top: 150px;
+  }
+}

@@ -1,0 +1,17 @@
+.app_container {
+  background-color: #0f0e0e;
+  color: white;
+}
+
+button {
+  margin: 1rem 1rem;
+  padding: 0.75em 1em;
+  background-color: #e4f065;
+  border: none;
+}
+
+@media screen and (min-width: 321px) {
+  button {
+    margin: 2rem 1rem;
+  }
+}

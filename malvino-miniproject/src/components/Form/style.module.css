@@ -1,0 +1,26 @@
+.form_container .form_container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_container label {
+  margin-bottom: 0.2rem;
+  margin-top: 1rem;
+}
+
+.form_container input {
+  margin: 0.5rem 0;
+  padding: 0.4em;
+  outline: none;
+}
+
+.form_container .form_item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_container button {
+  font-weight: bold;
+  width: 100px;
+  margin: 2rem auto;
+}

@@ -1,0 +1,87 @@
+.team_data_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 160px 1rem 100px 1rem;
+}
+
+.back {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 2.5rem 0 1rem 0;
+}
+
+.team_data_container a:hover {
+  color: #e4f065;
+}
+
+.team_data_container button {
+  font-weight: bold;
+  margin: 1rem 1rem 0 0;
+}
+
+.spinner {
+  margin: 5rem auto;
+}
+
+.team_data {
+  margin: 2.5rem 0;
+  padding: 2rem;
+  background-color: #171717;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px rgba(228, 240, 101, 0.5);
+}
+
+.team_data span {
+  color: #90ff86;
+}
+
+.member_container {
+  margin-bottom: 1.75rem;
+}
+
+p.status {
+  padding: 0.5rem 0;
+  opacity: 0.9;
+  font-style: italic;
+  color: white;
+}
+
+p {
+  margin: 0;
+}
+
+.no_team {
+  font-style: italic;
+  opacity: 0.5;
+}
+
+.title {
+  margin: 2rem 0 1rem 0;
+  font-weight: bold;
+}
+
+.sub_title {
+  font-weight: bold;
+}
+
+.btn_delete {
+  color: white;
+  background-color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .team_data_container {
+    padding: 110px 2.5rem 100px 2.5rem;
+  }
+
+  .team_data {
+    padding: 3rem;
+  }
+}

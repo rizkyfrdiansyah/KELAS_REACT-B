@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #171717;
+  margin-top: 2rem;
+}
+
+.footer img {
+  width: 40px;
+}
+
+.contact_logo_container img {
+  width: 25px;
+  margin: 0 0.9rem;
+}
+
+.footer_bottom {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.footer_bottom p {
+  margin-top: 2rem;
+}
+
+.copyright {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 900px) {
+  .footer_bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer_bottom p {
+    margin: 0;
+  }
+}

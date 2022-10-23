@@ -1,0 +1,58 @@
+.home_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 2.5rem;
+  padding-top: 200px;
+}
+
+.home_container button {
+  font-weight: bold;
+}
+
+.home_container form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact_logo_container img {
+  width: 25px;
+  margin: 0 0.9rem;
+}
+
+.btn_daftar {
+  padding: 0.75em 2em;
+}
+
+.content_container {
+  margin-top: 2.5rem;
+  padding: 2rem;
+  background-color: #171717;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px rgba(228, 240, 101, 0.5);
+}
+
+.content_container h2 {
+  padding: 1rem;
+}
+
+.content_container p {
+  margin: 1rem auto;
+}
+
+.media_partner h2 {
+  margin: 3rem 0;
+  margin-bottom: 2rem;
+}
+
+.media_partner img {
+  margin: 1rem;
+}
+
+@media screen and (min-width: 700px) {
+  .content_container p {
+    width: 55%;
+  }
+}
