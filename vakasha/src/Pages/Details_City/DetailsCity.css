@@ -1,0 +1,15 @@
+h1 {
+  color: #142a49;
+}
+
+#size-img {
+  width: 1300px;
+  height: 500px;
+}
+
+.size-svg {
+  width: 300px;
+  height: 150px;
+  /* margin-top: 300px; */
+  /* display:inline-block; */
+}

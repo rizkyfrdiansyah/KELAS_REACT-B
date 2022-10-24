@@ -1,0 +1,28 @@
+h1 {
+  color: #142a49;
+}
+
+h5 {
+  color: #142a49;
+}
+
+#btn-details {
+  color: #fff;
+  background-color: #142a49;
+  border-color: #142a49;
+  border-radius: 20px;
+  width: 100%;
+}
+
+#border-color {
+  border-color: #142a49;
+}
+
+#size-foto {
+  height: 200px !important;
+}
+
+#icon-like {
+  color: #142a49;
+  /* #dc3545 */
+}

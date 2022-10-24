@@ -1,0 +1,22 @@
+h1 {
+  color: #142a49;
+}
+
+.img-items {
+  width: 287px;
+  height: 289px;
+}
+
+h5 {
+  color: #142a49;
+}
+/* 
+.zoom {
+    transition: transform .9s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+} */

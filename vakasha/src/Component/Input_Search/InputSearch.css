@@ -1,0 +1,13 @@
+#size-foto {
+  height: 165.54px;
+}
+
+#new-btn-primary {
+  border-radius: 30px;
+  background-color: #142a49;
+  color: #fff;
+}
+
+#size-input {
+  border-radius: 30px !important;
+}
